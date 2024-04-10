@@ -7,38 +7,42 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
 }
 
-.intro {
+.hero {
   background-color: #23424a;
   color: white;
-  padding: 150px 120px;
+  padding: 100px 0;
 }
 
 .container {
-  width: 60%;
+  width: 80%;
   max-width: 750px;
-  margin: 0 auto 0 0;
-  font-size: ;
+  margin: 0 auto;
 }
 
-h1 {
+.hero-text {
+  width: 60%;
+}
+
+.hero h1 {
   font-weight: 900;
   font-size: 3rem;
   margin: 0;
 }
 
-p {
+.hero p {
   font-weight: 300;
-  font-size: 1.5rem;
   margin-bottom: 3em;
 }
 
-button {
+.hero button {
   background: #38cfd9;
+  color: #23424a;
+  text-transform: uppercase;
   border: none;
-  font-size: 1.5rem;
   font-weight: 600;
   padding: 0.8em 2em;
-  border-radius: 2em;
+  border-radius: 10em;
 }
