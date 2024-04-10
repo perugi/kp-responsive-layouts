@@ -37,7 +37,7 @@ body {
   margin-bottom: 3em;
 }
 
-.hero button {
+.btn {
   background: #38cfd9;
   color: #23424a;
   text-transform: uppercase;
@@ -46,3 +46,10 @@ body {
   padding: 0.8em 2em;
   border-radius: 10em;
 }
+
+.btn:focus,
+.btn:hover {
+  opacity: 0.8;
+}
+
+
