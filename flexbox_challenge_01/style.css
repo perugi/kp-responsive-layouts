@@ -43,8 +43,7 @@ h1 {
 
 .row {
   display: flex;
-  gap: 100px;
-  padding: 60px 0;
+  gap: 30px;
 }
 
 .col {
@@ -61,17 +60,39 @@ h1 {
   width: 60%;
 }
 
-.hero p {
-  margin-bottom: 3em;
+.mid {
+  padding: 3em 0;
+  text-align: center;
 }
 
-.mid h2 {
+.mid__title {
   color: #87629a;
 }
 
 .bottom {
+  padding: 3em 0;
   background-color: #136c72;
   color: #fff;
+  text-align: center;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.mid {
+  padding: 3em 0;
+}
+
+.mid__title {
+  color: #87629a;
+}
+
+.bottom {
+  padding: 3em 0;
+  background-color: #136c72;
+  color: #fff;
+  text-align: center;
 }
 
 .btn {
