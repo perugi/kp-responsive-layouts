@@ -92,30 +92,24 @@ h1 {
   opacity: 0.75;
 }
 
-.content {
-  margin-top: 2em;
-}
-
-.content h1 {
+.section-title,
+.sidebar-title {
   font-size: 2.25rem;
 }
 
-.content__main {
+.primary-content {
   width: 66%;
   padding: 2em 0;
 }
 
-.content__main h1 {
+.section-title {
   color: #136c72;
 }
 
-.content__adv {
+.sidebar {
   width: 32%;
   padding: 2em;
   background-color: #136c72;
   color: #fff;
-}
-
-.content__adv div {
   text-align: center;
 }
