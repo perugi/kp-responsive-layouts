@@ -71,13 +71,12 @@ h2 {
   color: var(--third-section-color);
 }
 
-.first-section__title {
-  color: var(--third-section-color);
+.section-title {
+  color: var(--hero-color);
 }
 
-.second-section__title,
-.third-section__title {
-  color: var(--hero-color);
+.section-title--dark {
+  color: var(--third-section-color);
 }
 
 .second-section__text,
@@ -116,9 +115,8 @@ h2 {
   padding: 5em 0;
 }
 
-.first-section__title {
+.section-title--dark {
   text-align: center;
-  margin-bottom: 1em;
 }
 
 .first-section__content {
@@ -138,8 +136,7 @@ h2 {
   background-color: var(--third-section-color);
 }
 
-.second-section__title,
-.third-section__title {
+.section-title {
   margin-bottom: 0.5em;
 }
 
