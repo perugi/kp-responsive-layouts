@@ -137,6 +137,32 @@ header {
     height: 30px;
 }
 
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__list--primary {
+    margin-bottom: 3em;
+}
+
+.nav__item {
+    margin: 1.5em 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    color: #136c72;
+    background-color: white;
+    border-radius: 10em;
+    padding: 0.3em 0.8em;
+
 
 .hero {
     padding: 100px 0;
