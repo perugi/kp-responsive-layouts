@@ -157,6 +157,11 @@ header {
     text-transform: uppercase;
 }
 
+.nav__link:hover,
+.nav__link:focus {
+    opacity: 0.75;
+}
+
 .nav__link--button {
     color: #136c72;
     background-color: white;
