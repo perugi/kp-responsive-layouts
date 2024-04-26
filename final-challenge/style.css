@@ -30,7 +30,7 @@ img {
 /*** REUSABLE ***/
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -318,7 +318,7 @@ footer {
 
 @media (min-width: 700px) {
   .container {
-    width: 90%;
+    width: 85%;
   }
 
   .nav-toggle {
@@ -380,10 +380,60 @@ footer {
   }
 }
 
-/* h1 {
-  font-size: 5.625rem;
-} */
+@media (min-width: 1000px) {
+  .container {
+    width: 80%;
+  }
 
-/* .hero__content {
-  font-size: 1.5rem;
-} */
+  h1 {
+    font-size: 5.625rem;
+  }
+
+  .hero__content {
+    font-size: 1.5rem;
+  }
+
+  .hero > .row,
+  .main-section > .row,
+  footer > .row {
+    display: flex;
+  }
+
+  .hero > .row {
+    align-items: end;
+  }
+
+  .main-section > .row {
+    align-items: start;
+  }
+
+  .sidebar {
+    display: block;
+    margin-left: 5em;
+  }
+
+  .sidebar-card {
+    margin: 1em 0;
+    padding: 2em;
+  }
+
+  .hero__content {
+    margin-left: 2em;
+  }
+
+  footer .row {
+    gap: 1em;
+  }
+
+  .footer-about {
+    flex: 1;
+  }
+
+  .footer-links {
+    flex: 1.5;
+  }
+
+  .footer-links > .footer-card {
+    flex: 1;
+  }
+}
