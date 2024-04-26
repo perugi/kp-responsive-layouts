@@ -3,5 +3,5 @@ Solutions to the challenges in the Kevin Powell Conquering Responsive Layouts co
 
 ## Final Challenge
 💻 [Live Demo](https://perugi.github.io/kp-responsive-layouts/) 💻<br/><br/>
-The final challenge has been created from scratch from a .pdf design brief.<br/>
-It is created as a mobile-first design, with tablet and desktop breakpoints.
+I've coded the final challenge from scratch from a .pdf design brief.<br/>
+It is a mobile-first design, with tablet and desktop breakpoints.
