@@ -286,6 +286,7 @@ h2 {
 
 .intro-card {
   margin: 1.5em 0;
+  text-align: center;
 }
 
 .main-section {
@@ -313,10 +314,71 @@ footer {
   margin-bottom: 1em;
 }
 
-/* .row {
-  display: flex;
-  justify-content: space-between;
-} */
+/*** BREAKPOINTS ***/
+
+@media (min-width: 700px) {
+  .container {
+    width: 90%;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    align-items: center;
+    height: auto;
+  }
+
+  .nav__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .nav__item {
+    margin: 0 0.5em;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero > .row {
+    display: block;
+  }
+
+  .intro-card {
+    margin: 1em;
+  }
+
+  .main-section > .row {
+    display: block;
+  }
+
+  .sidebar {
+    display: flex;
+    margin-top: 1em;
+  }
+
+  .sidebar-card {
+    margin: 0 0.5em;
+    padding: 1em;
+  }
+
+  footer > .row {
+    display: block;
+  }
+
+  .footer-card {
+    margin: 1em 0;
+  }
+}
 
 /* h1 {
   font-size: 5.625rem;
