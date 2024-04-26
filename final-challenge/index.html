@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conquering Responsive Layouts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -29,7 +31,7 @@
           <ul class="nav__list nav__list--secondary">
             <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link nav__link--button">Sign up</a>
+              <a href="#" class="nav__link btn">Sign up</a>
             </li>
           </ul>
         </nav>
@@ -39,7 +41,12 @@
     <section class="hero">
       <div class="container row">
         <div class="hero__title">
-          <h1>Responsive layouts <em>don’t have to be a struggle</em></h1>
+          <h1>
+            Responsive layouts
+            <span class="hero__title--emphasis"
+              >don’t have to be a struggle</span
+            >
+          </h1>
         </div>
         <div class="hero__content">
           <p>
@@ -52,7 +59,7 @@
       </div>
     </section>
 
-    <main class="main">
+    <main>
       <section class="intro-section">
         <div class="container row">
           <div class="intro-card">
@@ -66,7 +73,7 @@
 
           <div class="intro-card">
             <h2 class="intro-card__title">Efficient</h2>
-            <p class="intro-card-one__content">
+            <p class="intro-card__content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
@@ -88,7 +95,7 @@
         <div class="container row">
           <div class="main-section-content">
             <h2 class="main-section-content__title">
-              Quality designs made custom, on demand, just for you
+              It doesn't have to be so hard
             </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -108,77 +115,91 @@
           </div>
 
           <aside class="sidebar">
-            <h2 class="sidebar-title">Break it down</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
+            <div class="sidebar-card">
+              <h2 class="sidebar-card__title">Break it down</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
 
-            <h2 class="sidebar-title">Work your way up</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
+            <div class="sidebar-card">
+              <h2 class="sidebar-card__title">Work your way up</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
 
-            <h2 class="sidebar-title">And fly</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
+            <div class="sidebar-card">
+              <h2 class="sidebar-card__title">And fly</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
           </aside>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <h1 class="footer__title">Just scratching the surface</h1>
+    <footer>
+      <h1 class="container footer-title">Just scratching the surface</h1>
       <div class="container row">
-        <div class="footer-about">
-          <h2 class="footer-about__title">About our company</h2>
-          <p class="footer-about__content">
+        <div class="footer-card">
+          <h2 class="footer-card__title">About our company</h2>
+          <p class="footer-card__content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam.
           </p>
         </div>
-        <div class="footer-nav">
-          <h2 class="footer-nav__title">Getting around</h2>
-          <ul class="footer-nav__list">
-            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-other">
-          <h2 class="footer-other__title">Other things</h2>
-          <ul class="footer-other__list">
+        <div class="footer-card">
+          <h2 class="footer-card__title">Getting around</h2>
+          <ul class="footer-card__list">
+            <li class="nav__item"><a href="#" class="footer__link">Home</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Lorem ipsum</a>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link">dolor</a></li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">sit amet</a>
+              <a href="#" class="footer__link">About</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">consectetur</a>
+              <a href="#" class="footer__link">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="footer-more">
-          <h2 class="footer-more__title">And more</h2>
-          <ul class="footer-more__list">
+        <div class="footer-card">
+          <h2 class="footer-card__title">Other things</h2>
+          <ul class="footer-card__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">Lorem ipsum</a>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link">dolor</a></li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">sit amet</a>
+              <a href="#" class="footer__link">Lorem ipsum</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">consectetur</a>
+              <a href="#" class="footer__link">dolor</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">sit amet</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">consectetur</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-card">
+          <h2 class="footer-card__title">And more</h2>
+          <ul class="footer-card__list">
+            <li class="nav__item">
+              <a href="#" class="footer__link">Lorem ipsum</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">dolor</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">sit amet</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">consectetur</a>
             </li>
           </ul>
         </div>
